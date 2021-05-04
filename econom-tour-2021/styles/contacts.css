@@ -1,0 +1,77 @@
+header{
+    background:url('../images/beground5.jpg') ;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    border: solid 3px black;
+    box-shadow: black 10px 10px 10px;
+    
+    
+}
+.menu {
+    
+    margin-top: 30px;
+    
+}
+.ul{
+    display: flex;
+    padding: 0px;
+    justify-content: center;
+}
+.li{
+    list-style: none;
+    padding: 20px;
+    
+}
+.li a{
+    color: rgb(44, 48, 44);
+    text-decoration: none;
+    font-size: 35px;
+    font-family: 'Marck Script', cursive;
+    
+}
+li.li a:hover{
+    font-size: 38px;
+    color: rgba(60, 92, 53, 0.521);
+
+}
+
+h1{
+    color: black ;
+    text-align:center;
+    font-family: 'Orelega One', cursive;
+   
+
+}
+.text {
+    margin-top: 20px;
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Orelega One', cursive;
+   
+  
+    
+    
+    
+}
+footer{
+    background-color: darkorchid;
+    font-size: 30px;
+    text-align: right;
+    
+}
+#_MI_8e5e2dee7e55c74211fe9ab7b6fe85b1{
+    
+}
+
+
+
+
+
+
+table{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: solid black;
+    background: rgb(136, 63, 231);
+    margin: auto;
+}

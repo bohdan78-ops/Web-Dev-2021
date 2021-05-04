@@ -1,0 +1,97 @@
+header{
+    background:url('../images/beground5.jpg') ;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    border: solid 3px black;
+    box-shadow: black 10px 10px 10px;
+    
+    
+}
+.menu {
+    
+    margin-top: 30px;
+    
+}
+.ul{
+    display: flex;
+    padding: 0px;
+    justify-content: center;
+}
+.li{
+    list-style: none;
+    padding: 20px;
+    
+}
+.li a{
+    color: rgb(44, 48, 44);
+    text-decoration: none;
+    font-size: 35px;
+    font-family: 'Marck Script', cursive;
+    
+}
+li.li a:hover{
+    font-size: 38px;
+    color: rgba(60, 92, 53, 0.521);
+
+}
+
+h1{
+    color: black ;
+    text-align:center;
+    font-family: 'Orelega One', cursive;
+   
+
+}
+.text {
+    margin-top: 20px;
+    font-size: 20px;
+    display: inline-block;
+    font-family: 'Orelega One', cursive;
+    width: 500px;
+    margin-left: 700px;
+  
+    
+    
+    
+}
+footer{
+    background-color: darkorchid;
+    
+}
+#_MI_8e5e2dee7e55c74211fe9ab7b6fe85b1{
+    
+}
+
+
+<!--for all pages//-->
+
+h2 {
+    color:black;
+    font-family: 'Orelega One', cursive
+}
+form{
+    margin: 0 auto;
+    width: 400px;
+    box-shadow: 5px 5px 10px black;
+    padding: 10px;
+    background-color: rgb(136, 63, 231);
+}
+.requestmenu{
+    margin: 10px;
+    padding: 5px;
+}
+input{
+    width: 380px;
+    height: 20px;
+    border-radius: 10px 10px;
+    
+}
+button {
+    padding: 10px 10px;
+    background: rgb(214, 214, 19);
+    border-radius: 10px 10px;
+}
+button:hover {
+    background: yellow;
+}
