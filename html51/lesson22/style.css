@@ -1,0 +1,36 @@
+@font-face {
+
+    font-family: Caveat;
+    
+    src: url('fonts/mod3_caveat.ttf') format('truetype');
+    
+    }
+    body {
+
+        font-family: Caveat;
+        
+        }
+        @font-face {
+
+            font-family: Chonburi;
+            
+            src: url('fonts/mod3_chonburi.ttf') format('truetype');
+            
+            }
+            body {
+
+                font-family: Chonburi;
+                
+                }
+                @font-face {
+
+                    font-family: Itim;
+                    
+                    src: url('fonts/mod3_itim.ttf') format('truetype');
+                    
+                    }
+                    body {
+
+                        font-family: Itim;
+                        
+                        }

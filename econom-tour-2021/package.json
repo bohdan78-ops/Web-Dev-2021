@@ -20,5 +20,8 @@
   "homepage": "https://github.com/KPNU/econom-tour-2021#readme",
   "devDependencies": {
     "lite-server": "^2.6.1"
+  },
+  "dependencies": {
+    "bootstrap": "^3.4.1"
   }
 }
