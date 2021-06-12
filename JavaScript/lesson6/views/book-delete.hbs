@@ -1,0 +1,24 @@
+
+<div class="container">   
+    <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <p>Ви впевнені?</p>
+            <button class="btn btn-danger" onclick="Delete()">Видалити</button>
+        </div>
+    </div>
+    
+</div>
+<script>
+    function Delete(){
+         fetch("/book/{{book._id}}", {
+            method:'DELETE',
+            cache:'no-cache',
+            headers: {
+                'content-type':'application/json'
+            },
+            body: ''
+        })
+        .then(d=>window.location='/books')
+        .catch(err=>alert(err));
+    }
+</script>

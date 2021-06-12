@@ -1,0 +1,32 @@
+<h1>{{title}}</h1>
+<table class="table">
+    <thead>
+        <tr style="background-color: aqua;">
+            <th>Статус</th>
+            <th>Ім'я</th>
+            <th>Логін</th>
+            <th>email</th>
+            <th>Телефон</th>
+            <th>Пароль</th>
+            <th>Жетони</th>
+            <th>Дата створення</th>
+            <th>Дата оновлення</th>
+        </tr>
+    </thead>
+    <tbody>
+        {{#each users}}
+        <tr>
+            <td>{{role}}</td>
+            <td>{{name}}</td>
+            <td>{{username}}</td>
+            <td>{{email}}</td>
+            <td>{{phone}}</td>
+            <td>{{password}}</td>
+            <td>{{tokens}}</td>
+            <td>{{createdAt}}</td>
+            <td>{{updatedAt}}</td>
+
+
+        </tr>
+        {{/each}}
+    </tbody>

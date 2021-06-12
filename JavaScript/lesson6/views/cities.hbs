@@ -1,0 +1,45 @@
+<div class="container">
+
+    <div class="row">
+        <div class="col-md-3">
+            <h1>{{title}}</h1>
+        </div>
+        <div class="col-md-9">
+            <form action="/cities-demo" method="POST" class="form-inline" role="form">            
+                <div class="form-group">
+                    <label class="sr-only" for="country">Пошук:</label>
+                    <input type="text" class="form-control" id="country" 
+                    name="country"
+                    placeholder="Напр., Україна">
+                </div>            
+                <button type="submit" class="btn btn-primary">Шукати</button>
+            </form>
+            
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-12">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Назва програми</th>
+                        <th>Країна</th>
+                        <th>Район</th>
+                        <th>Геометка</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {{#each cities}}
+                    <tr>
+                        <td>{{name}}</td>
+                        <td>{{country}}</td>
+                        <td>{{subcountry}}</td>
+                        <td>{{geonameid}}</td>
+                    </tr>
+                    {{/each}}
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

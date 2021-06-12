@@ -1,0 +1,34 @@
+<div class="container">
+
+    <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <h1>{{title}}</h1>
+            <a class="btn btn-success" href="/book-create">Створити</a>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Автор</th>
+                        <th>Назва</th>
+                        <th>&nbsp;</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {{#each books}}
+                    <tr>
+                        <td>{{author}}</td>
+                        <td>{{title}}</td>
+                        <td>
+                            <a class="btn btn-success" href="/book/{{_id}}">
+                                <span class="glyphicon glyphicon-pencil" />
+                            </a>|
+                            <a class="btn btn-danger" href="/book-delete/{{_id}}">
+                                <span class="glyphicon glyphicon-remove" />
+                            </a>
+                        </td>
+                    </tr>
+                    {{/each}}
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
