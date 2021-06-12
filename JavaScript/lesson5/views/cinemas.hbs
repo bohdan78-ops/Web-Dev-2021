@@ -1,0 +1,18 @@
+<h1>{{title}}</h1>
+<table class="table">
+    <thead>
+        <tr style="background-color: aqua;">
+            <th>Назва залу</th>
+            <th>Ряд</th>
+            <th>Місце</th>
+        </tr>
+    </thead>
+    <tbody>
+        {{#each cinemas}}
+        <tr>
+            <td>{{name}}</td>
+            <td>{{rows}}</td>
+            <td>{{cols}}</td>
+        </tr>
+        {{/each}}
+    </tbody>

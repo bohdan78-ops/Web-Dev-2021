@@ -1,27 +1,19 @@
 {
   "name": "econom-tour-2021",
-  "version": "1.0.0",
-  "description": "Demo",
-  "main": "index.js",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "lite": "lite-server --port 10001",
-    "start": "npm run lite"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/KPNU/econom-tour-2021.git"
-  },
-  "author": "",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/KPNU/econom-tour-2021/issues"
-  },
-  "homepage": "https://github.com/KPNU/econom-tour-2021#readme",
-  "devDependencies": {
-    "lite-server": "^2.6.1"
+    "start": "node ./bin/www",
+    "dev": "nodemon ./bin/www"
   },
   "dependencies": {
-    "bootstrap": "^3.4.1"
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "hbs": "~4.0.4",
+    "http-errors": "~1.6.3",
+    "morgan": "~1.9.1",
+    "nodemailer": "^6.6.1",
+    "nodemon": "^2.0.7"
   }
 }
